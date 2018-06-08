@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MoviesModelStoreContainer" CdmEntityContainer="MoviesEntities">
+    <EntitySetMapping Name="MovieLists">
+      <EntityTypeMapping TypeName="MoviesModel.MovieList">
+        <MappingFragment StoreEntitySet="MovieList">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TItle" ColumnName="TItle" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="ReleaseYear" ColumnName="ReleaseYear" />
+          <ScalarProperty Name="RatingIMDB" ColumnName="RatingIMDB" />
+          <ScalarProperty Name="RatingMPAA" ColumnName="RatingMPAA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
